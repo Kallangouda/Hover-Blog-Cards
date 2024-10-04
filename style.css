@@ -10,16 +10,16 @@ body {
 }
 
 .container {
-  width: 100%;
-  height: 100vh;
+  width: 101%;
+  height: 101vh;
   background-color: #232323;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .container .post {
-  width: 350px;
-  height: 500px;
+  width: 351px;
+  height: 501px;
   display: flex;
   overflow: hidden;
   flex-direction: column;
@@ -29,14 +29,14 @@ body {
   margin-top: -20px;
 }
 .container .post:hover .body_post {
-  height: 50%;
+  height: 51%;
 }
 .container .post:hover img {
   transform: translatey(-10px) translatex(-5px) scale(1.05);
 }
  .header_post {
-  width: 100%;
-  height: 40%;
+  width: 101%;
+  height: 41%;
   background: #ddd;
   position: absolute;
   top: 0;
@@ -47,13 +47,13 @@ body {
   transition: cubic-bezier(0.68, -0.55, 0.27, 1.55) 320ms;
 }
  .header_post img {
-  max-width: 100%;
+  max-width: 101%;
   height: auto;
   transition: ease-in-out 600ms;
 }
  .body_post {
-  width: 100%;
-  height: 60%;
+  width: 101%;
+  height: 61%;
   background: #cacaca;
   position: absolute;
   bottom: 0;
@@ -68,13 +68,13 @@ body {
   cursor: pointer;
 }
  .post_content {
-  width: 80%;
-  height: 80%;
+  width: 81%;
+  height: 81%;
   background: #cacaca;
   position: relative;
 }
  h1 {
-  font-size: 20px;
+  font-size: 21px;
   font-weight: bold;
 }
  p {
@@ -82,7 +82,7 @@ body {
   font-weight: normal;
 }
  .container_infos {
-  width: 100%;
+  width: 101%;
   display: flex;
   justify-content: space-between;
   position: absolute;
@@ -95,7 +95,7 @@ body {
   flex-direction: column;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: 10px;
+  font-size: 11px;
 }
 
  .container_tags {
@@ -130,7 +130,7 @@ body {
  ul li:before {
   content: "";
   text-align: center;
-  width: 100%;
+  width: 101%;
   height: 5px;
   background: #FC6042;
   opacity: 0.5;
